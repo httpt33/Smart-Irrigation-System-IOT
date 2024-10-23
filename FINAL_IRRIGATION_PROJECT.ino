@@ -26,7 +26,7 @@ LiquidCrystal_I2C lcd(LCD_ADDRESS, LCD_COLUMNS, LCD_ROWS);
 #define RELAY_PIN 25
 #define PH_SENSOR_PIN A0   // GPIO 36 for pH sensor
 
-// pH sensor calibration values
+// pH sensor calibration
 const float CALIBRATION_VOLTAGE_7 = 3.2;  
 const float VOLTAGE_PER_PH = 0.18;
 
